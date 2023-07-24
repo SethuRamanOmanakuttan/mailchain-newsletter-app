@@ -41,9 +41,10 @@ These instructions will get you a copy of the project up and running on your loc
    ```sh
    cd client && npm install
    ```
-4. In the root directory, add your Mailchain account Secret Recovery Phrase to the .env file. You can rename the .env.example file. This account will act as the admin account.
+4. In the root directory, add your Mailchain account Secret Recovery Phrase and Email Address to the .env file. You can rename the .env.example file. This account will act as the admin account.
    ```sh
    SECRET_RECOVERY_PHRASE="YOUR-MAILCHAIN-SECRET-RECOVERY-PHRASE"
+   ADMIN_EMAIL="YOUR-ADMIN-EMAIL-ADDRESS"
    ```
 5. From the root directory, start the application:
    ```sh
