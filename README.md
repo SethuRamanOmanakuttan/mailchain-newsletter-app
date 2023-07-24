@@ -7,7 +7,7 @@ This is a full-stack JavaScript demo application that showcases the capabilities
 - [About Mailchain](#about-mailchain)
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
-- [Project Navigation](#navigation-and-user-options)
+- [Project Navigation](#app-navigation-and-user-options)
 - [Available Scripts](#available-scripts)
 - [License](#license)
 
@@ -41,7 +41,7 @@ These instructions will get you a copy of the project up and running on your loc
    ```sh
    cd client && npm install
    ```
-4. In the root directory, add your Mailchain account Secret Recovery Phrase and Email Address to the .env file. You can rename the .env.example file. This account will act as the admin account.
+4. In the root directory, add your Mailchain account [Secret Recovery Phrase](https://docs.mailchain.com/user/guides/settings/secret-recovery-phrase/) and [Email address](https://docs.mailchain.com/developer/address-formatting/) to the .env file. You can rename the .env.example file. This account will act as the admin account.
    ```sh
    SECRET_RECOVERY_PHRASE="YOUR-MAILCHAIN-SECRET-RECOVERY-PHRASE"
    ADMIN_EMAIL="YOUR-ADMIN-EMAIL-ADDRESS"
@@ -76,7 +76,7 @@ In the 'User' section, users can subscribe to the mailing list. You can use any 
 
 ## Admin Option
 
-In the 'Admin' section, an admin user can create and send newsletters. After logging in with the admin credentials [the user id of your admin email], the admin is presented with a text editor where they can compose the newsletter. After clicking 'Send Letter', the newsletter will be sent to all subscribed users.
+In the 'Admin' section, an admin user can create and send newsletters. After logging in with the admin credentials [the admin account username], the admin is presented with a text editor where they can compose the newsletter. After clicking 'Send Letter', the newsletter will be sent to all subscribed users.
 
 # License
 
