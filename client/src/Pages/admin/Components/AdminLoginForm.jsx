@@ -43,7 +43,7 @@ export const AdminLoginForm = () => {
           className=" border-3 bg-transparent border-batman font-poppins shadow text-center  rounded w-full py-2 px-3 text-batman leading-tight focus:outline-none focus:shadow-outline"
           id="username"
           type="password"
-          placeholder="Admin User ID"
+          placeholder="Admin Username"
           value={adminID}
           onChange={(e) => setAdminID(e.target.value)}
         />
