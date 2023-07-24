@@ -13,7 +13,7 @@ export const SubscriptionForm = ({ action, setAction }) => {
   const { fetchSubscriptionList } = useContext(AdminContext);
 
   const handleAction = async () => {
-    const emailRegex = /^[a-zA-Z0-9.]+@[a-zA-Z0-9.]+\.mailchain\.com$/i;
+    const emailRegex = /^[a-zA-Z0-9._]+@(?:[a-zA-Z0-9.]+\.)?mailchain\.com$/i;
     if (!emailRegex.test(mailchainID)) {
       setIsInvalidEmail(true);
       return;
