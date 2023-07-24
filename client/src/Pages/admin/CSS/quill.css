@@ -1,0 +1,6 @@
+.ql-editor {
+  overflow: scroll;
+  resize: none;
+  min-height: 16em;
+  max-height: 18em;
+}
