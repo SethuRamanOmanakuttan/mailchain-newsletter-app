@@ -1,6 +1,6 @@
 # Newsletter Management Application
 
-This is a full-stack JavaScript application that showcases the capabilities of the Mailchain SDK. The application provides an interface for users to subscribe to newsletters and for administrators to send newsletters to the subscribers.
+This is a full-stack JavaScript demo application that showcases the capabilities of the Mailchain SDK. The application provides an interface for users to subscribe to newsletters and for administrators to send newsletters to the subscribers.
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@ This is a full-stack JavaScript application that showcases the capabilities of t
 
 ## About Mailchain
 
-Mailchain is a multi-chain communication protocol that helps you communicate with your users across any protocol. It provides end-to-end encryption by default, and supports 1:1, 1:many and group communication.
+Mailchain is a multi-chain communication protocol that helps you communicate with your users across any protocol. It provides end-to-end encryption by default and supports 1:1, 1:many and group communication.
 
 
 ## Getting Started
@@ -65,13 +65,13 @@ The code is designed to run in a local setup.
 
 - `npm run dev`: Runs both the client and server in development mode.
 
-# Navigation and User Options
+# App Navigation and User Options
 
 The application offers two main functionalities which are accessed through the 'User' and 'Admin' options on the landing page.
 
 ## User Option
 
-In the 'User' section, users can subscribe to the mailing list. Upon submission of their address, they will receive a confirmation email. Once the email is confirmed, the user will be added to the mailing list and will receive newsletters sent by the admin.
+In the 'User' section, users can subscribe to the mailing list. You can use any valid Mailchain address to Subscribe to the newsletter. Upon submission of the address, they will receive a confirmation email. Once the email is confirmed, the user will be added to the mailing list and will receive newsletters sent by the admin.
 
 ## Admin Option
 
