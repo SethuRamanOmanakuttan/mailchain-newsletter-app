@@ -23,7 +23,7 @@ const mailchain = Mailchain.fromSecretRecoveryPhrase(secretRecoveryPhrase);
 async function sendMail(_userAddress, action, htmlContent = "") {
   // Defining the default mail options
   const mailOptions = {
-    from: `sethu_dev@mailchain.com`, // sender address
+    from: process.env.ADMIN_EMAIL, // sender address
     to: [_userAddress], // list of recipients
     content: {
       text: "",
