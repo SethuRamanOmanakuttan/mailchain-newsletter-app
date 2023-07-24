@@ -15,7 +15,6 @@ This is a full-stack JavaScript application that showcases the capabilities of t
 
 Mailchain is a multi-chain communication protocol that helps you communicate with your users across any protocol. It provides end-to-end encryption by default, and supports 1:1, 1:many and group communication.
 
-The application leverages the Mailchain SDK to handle the complexity of working with the Mailchain REST API, including signing, verifying, encrypting, and decrypting.
 
 ## Getting Started
 
@@ -42,7 +41,7 @@ These instructions will get you a copy of the project up and running on your loc
    ```sh
    cd client && npm install
    ```
-4. In the root directory, add your Mailchain account Secret Recovery Phrase to the .env file. You can rename the .env.example file
+4. In the root directory, add your Mailchain account Secret Recovery Phrase to the .env file. You can rename the .env.example file. This account will act as the admin account.
    ```sh
    SECRET_RECOVERY_PHRASE="YOUR-MAILCHAIN-SECRET-RECOVERY-PHRASE"
    ```
